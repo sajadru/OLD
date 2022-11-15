@@ -1,0 +1,29 @@
+DROP TABLE IF EXISTS #condition
+SELECT ROW_NUMBER()OVER(ORDER BY name)[ID], name INTO #condition FROM sys.tables
+
+DECLARE @tableName VARCHAR(100)
+DECLARE @pkColumn VARCHAR(100)
+DECLARE @spName VARCHAR(100)
+DECLARE @schemaName VARCHAR(100)
+DECLARE @sqlCommand VARCHAR(MAX)
+WHILE((SELECT COUNT(name)FROM #condition)>0)
+BEGIN
+
+SELECT @schemaName =ISC.TABLE_SCHEMA ,@pkColumn= ISC.COLUMN_NAME ,@tableName= ISC.TABLE_NAME FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS IST
+INNER JOIN INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE ISC ON ISC.CONSTRAINT_NAME=IST.CONSTRAINT_NAME
+WHERE IST.CONSTRAINT_TYPE ='PRIMARY KEY' AND ISC.TABLE_NAME =(SELECT C.name FROM #condition C WHERE C.ID =(SELECT MIN(id)FROM #condition) )
+
+SET @spName ='SSP_'+@tableName+'_delete'
+SET @sqlCommand = 'CREATE OR ALTER PROC '+'['+@spName+']'+' (@ID int)
+AS
+BEGIN
+DELETE FROM '+'['+@schemaName+']'+'.'+'['+@tableName+']'+' WHERE '+'['+@pkColumn+']'+' = @ID
+END '
+EXEC (@sqlCommand)
+
+
+DELETE FROM #condition
+WHERE ID = (SELECT MIN(ID) FROM #condition)
+END
+
+GO 
