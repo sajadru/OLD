@@ -1,0 +1,15 @@
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\bin\Debug\CalendarCulture.exe.config
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\bin\Debug\CalendarCulture.exe
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\bin\Debug\CalendarCulture.pdb
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\bin\Debug\fa-IR\CalendarCulture.resources.dll
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.FrmCalendar.resources
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.Properties.Resources.resources
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.Resources.Resource.resources
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.Resources.Resource.fa-IR.resources
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.csproj.GenerateResource.cache
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.csproj.CoreCompileInputs.cache
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\fa-IR\CalendarCulture.resources.dll
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.exe
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.pdb
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.csproj.AssemblyReference.cache
+C:\Users\SAJAD\source\repos\CalendarCulture\CalendarCulture\obj\Debug\CalendarCulture.csproj.SuggestedBindingRedirects.cache
