@@ -1,0 +1,8 @@
+C:\Users\SAJAD\source\repos\Game\SnakeGame\bin\Debug\SnakeGame.exe.config
+C:\Users\SAJAD\source\repos\Game\SnakeGame\bin\Debug\SnakeGame.exe
+C:\Users\SAJAD\source\repos\Game\SnakeGame\bin\Debug\SnakeGame.pdb
+C:\Users\SAJAD\source\repos\Game\SnakeGame\obj\Debug\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\SAJAD\source\repos\Game\SnakeGame\obj\Debug\SnakeGame.exe
+C:\Users\SAJAD\source\repos\Game\SnakeGame\obj\Debug\SnakeGame.pdb
+C:\Users\SAJAD\source\repos\Game\SnakeGame\obj\Debug\SnakeGame.csproj.AssemblyReference.cache
+C:\Users\SAJAD\source\repos\Game\SnakeGame\obj\Debug\SnakeGame.csproj.SuggestedBindingRedirects.cache
