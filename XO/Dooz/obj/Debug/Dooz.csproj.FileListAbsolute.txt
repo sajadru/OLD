@@ -1,0 +1,7 @@
+C:\Users\SAJAD\source\repos\XO\Dooz\bin\Debug\Dooz.exe.config
+C:\Users\SAJAD\source\repos\XO\Dooz\bin\Debug\Dooz.exe
+C:\Users\SAJAD\source\repos\XO\Dooz\bin\Debug\Dooz.pdb
+C:\Users\SAJAD\source\repos\XO\Dooz\obj\Debug\Dooz.csprojAssemblyReference.cache
+C:\Users\SAJAD\source\repos\XO\Dooz\obj\Debug\Dooz.csproj.CoreCompileInputs.cache
+C:\Users\SAJAD\source\repos\XO\Dooz\obj\Debug\Dooz.exe
+C:\Users\SAJAD\source\repos\XO\Dooz\obj\Debug\Dooz.pdb
